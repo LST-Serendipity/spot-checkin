@@ -32,7 +32,7 @@ const adminKey = ref('')
 const loading = ref(false)
 const error = ref('')
 
-const ADMIN_KEY = 'LST030721'
+const ADMIN_KEY = import.meta.env.VITE_ADMIN_KEY || 'LST030721'
 
 const handleLogin = async () => {
   if (!adminKey.value) { error.value = t('admin.pleaseEnterKey'); return }
