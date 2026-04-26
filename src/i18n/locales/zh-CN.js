@@ -193,5 +193,10 @@ export default {
     autoDelete: '其余图片将被自动删除',
     civilize: '请各位用户文明上网，上传健康向上的内容，共同维护良好的网络环境。',
     understood: '我知道了'
+  },
+  '404': {
+    title: '页面未找到',
+    description: '你访问的页面不存在，可能是链接已失效或输入了错误的地址。',
+    backHome: '返回首页'
   }
 }

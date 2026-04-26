@@ -193,5 +193,10 @@ export default {
     autoDelete: 'Other images will be automatically deleted',
     civilize: 'Please be civilized online, upload healthy content, and maintain a good network environment.',
     understood: 'Got it'
+  },
+  '404': {
+    title: 'Page Not Found',
+    description: 'The page you are looking for does not exist. The link may be broken or the URL may be incorrect.',
+    backHome: 'Back to Home'
   }
 }

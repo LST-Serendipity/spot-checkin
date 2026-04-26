@@ -5,6 +5,7 @@ import Upload from '../views/Upload.vue'
 import CreateSpot from '../views/CreateSpot.vue'
 import AdminLogin from '../views/AdminLogin.vue'
 import AdminDashboard from '../views/AdminDashboard.vue'
+import NotFound from '../views/NotFound.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -38,6 +39,11 @@ const router = createRouter({
       path: '/LSTAdmin',
       name: 'admin',
       component: AdminDashboard
+    },
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'not-found',
+      component: NotFound
     }
   ]
 })
